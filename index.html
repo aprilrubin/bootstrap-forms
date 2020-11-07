@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Houseplants quiz </title>
+  <!-- Bootstrap CSS with CDN -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+
+<div class="container-md">
+  <div class="row">
+    <div class="col-md-5">
+<h1> How much do you know about houseplants? </h1>
+
+<p>This quiz is about houseplants, which are typically grown indoors for decoration. Houseplants have also been proven to have positive psychological and physiological effects. </p>
+
+<p> <a href="https://en.wikipedia.org/wiki/Houseplant">Information found on Wikipedia.</a></p>
+
+        <form>
+
+        <div class ="form-group">
+          <label> What houseplants do you own, if any? When do you water it? </label>
+          <label class="form-control-label" for="plant">I own a:</label>
+          <input class="form-control" type="text" id="plant" name="own">
+        </div>
+
+        <div class ="form-group">
+          <label class ="form-control-label" for="water">I water it this often:</label>
+          <input class="form-control" type="text" id="water" name="h20">
+        </div>
+
+          <div class="form-group">
+            <label class ="form-control-label" for="effects">How do plants help people's state of mind?</label>
+            <textarea class="form-control" id="effects" name="mind" rows="6"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label> What don't houseplants need? </label>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="benefit" value="light"> Good light levels
+            </label>
+          </div>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="benefit" value="soil"> Soil mixture
+            </label>
+          </div>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="benefit" value="outdoors"> Being outside
+            </label>
+          </div>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="benefit" value="moisture"> Correct moisture
+            </label>
+          </div>
+
+        </div>
+
+          <div class ="form-group">
+          <label> Check all traditional growing methods </label>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class ="form-check-input" type="checkbox" name="growing" value="hydroponics"> Hydroponics
+            </label>
+          </div>
+
+          <div class="form-check">
+          <label class="form-check-label">
+            <input class ="form-check-input" type="checkbox" name="growing" value="forests"> Wet forests
+          </label>
+        </div>
+
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class ="form-check-input" type="checkbox" name="growing" value="subirrigation"> Subirrigation
+          </label>
+        </div>
+
+      <div class="form-check">
+          <label class="form-check-label">
+            <input class ="form-check-input" type="checkbox" name="growing" value="rainforest"> Tropical rainforest
+          </label>
+        </div>
+
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class ="form-check-input" type="checkbox" name="growing" value="savannah"> Savannah and desert
+          </label>
+        </div>
+        </div>
+
+          <div class="form-group">
+          <label for="researcher"> What organization has researched effects on indoor air pollution of houseplants, according to the Wikipedia page? </label>
+          <select class="form-control" name="researcher" id="researcher" size=6>
+            <option value="CDC">Centers for Disease Control</option>
+            <option value="museum">Smithsonian</option>
+            <option value ="space">NASA</option>
+            <option value="UF">The University of Florida</option>
+            <option value="FSU">Florida State University</option>
+            <option value="none">None of the above</option>
+          </select>
+          </div>
+
+        <div class="form-group">
+          <button class="btn btn-primary" type="submit">Submit</button>
+          <button class="btn btn-secondary" type="reset">Reset</button>
+        </div>
+
+        </form>
+
+      </div>
+
+  </div>
+
+</div>
+
+
+</body>
+</html>
